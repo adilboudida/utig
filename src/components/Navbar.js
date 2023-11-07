@@ -102,11 +102,11 @@ useEffect(() => {
               }              
               {location.pathname === "/profile" ? 
               <li className='border-b-2 hover:pb-0 p-2'>
-                <Link to="http://127.0.0.1:5501/index.html">Dashboard</Link>
+                <Link to="https://dashbord-mu.vercel.app/">Dashboard</Link>
               </li>
               :
               <li className='hover:border-b-2 hover:pb-0 p-2'>
-                <Link to="http://127.0.0.1:5501/index.html">Dashboard</Link>
+                <Link to="https://dashbord-mu.vercel.app/">Dashboard</Link>
               </li>              
               }  
               <li>
